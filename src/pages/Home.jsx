@@ -97,7 +97,7 @@ const Home = () => {
                             <a href="https://youtube.com"><FontAwesomeIcon icon={faYoutube} /></a>
                         </div>
                         <div className="social-icon whatsapp">
-                            <a href="https://whatsapp.com"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                            <a href="https://wa.me/8639141082"><FontAwesomeIcon icon={faWhatsapp} /></a>
                         </div>
                     </div>
                     <div className="legal">

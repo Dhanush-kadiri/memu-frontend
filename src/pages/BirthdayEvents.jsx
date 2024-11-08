@@ -26,7 +26,7 @@ const BirthdayEvents = () => {
   };
   const handleImageClick = (image) => {
     localStorage.setItem('selectedImage', image.image_data);
-    navigate('/Home/Marriageevents/Packages');
+    navigate('/Home/Marriageevents/CallBooking');
   };
   const handleFileChange = (event) => {
     const file = event.target.files[0];

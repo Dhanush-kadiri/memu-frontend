@@ -26,7 +26,7 @@ const PartiesEvents = () => {
   
   const handleImageClick = (image) => {
     localStorage.setItem('selectedImage', image.image_data);
-    navigate('/Home/Marriageevents/Packages');
+    navigate('/Home/Marriageevents/CallBooking');
   };
 
   const handleFileChange = (event) => {
@@ -70,14 +70,7 @@ const PartiesEvents = () => {
   };
   return (
     <div className="marriage-events-container">
-      {/* <nav className="navbar">
-       
-        <div className="nav-links">
-          <Link to='/Home/AboutUs'> <button className="nav-button">About Us</button></Link>
-          <Link to='/Home/OurGallery'> <button className="nav-button">Our Gallery</button></Link>
-          <Link to='/Home/Reviews'> <button className="nav-button">Reviews</button></Link>
-        </div>
-      </nav> */}
+      
 
       <h1 className="page-title">Available at our Company</h1>
 
